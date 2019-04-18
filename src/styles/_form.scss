@@ -1,0 +1,25 @@
+.formInp {
+    display: flex;
+    border: 1px solid #71CCD5;
+    height: 40px;
+    background: #E8E8E8;
+
+    .inputInForm {
+        flex-grow: 1;
+        padding: 8px;
+        border: none;
+    }
+
+    .btnAdd {
+        padding: 2px 6px;
+        border: 1px solid blue;
+        background: blue;
+        color: white;
+        transition: .2s;
+
+        &:hover {
+            cursor: pointer;
+            background: #6755FF;
+        }
+    }
+}

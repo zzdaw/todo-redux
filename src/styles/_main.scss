@@ -1,0 +1,14 @@
+.main {
+    width: 90vw;
+    height: 100vh;
+    margin: 20px auto 20px;
+
+    .filterContainer {
+        display: flex;
+
+        button {
+            flex-grow: 1;
+            height: 30px;
+        }
+    }
+}

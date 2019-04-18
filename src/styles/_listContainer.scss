@@ -1,0 +1,34 @@
+.listContainer {
+    list-style: none;
+
+    .liElem {
+        position: relative;
+        padding: 6px 4px;
+        font-size: 25px;
+
+        &:nth-child(even) {
+            background: #BBBBBB;
+        }
+
+        &:nth-child(odd) {
+            background: #E9E9E9;
+        }
+
+        &.active {
+            text-decoration: line-through;
+            color: dimgray;
+        }
+
+        .checkbox {
+            width: 30px;
+            height: 30px;
+        }
+
+        .fa-times {
+            position: absolute;
+            right: 5px;
+            color: black;
+        }
+
+    }
+}

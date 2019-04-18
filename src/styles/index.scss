@@ -1,0 +1,15 @@
+@import 'header';
+@import 'main';
+@import 'form';
+@import 'listContainer';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: arial;
+}
